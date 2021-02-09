@@ -1,15 +1,6 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-[class*="col-"] {
-    float: left;
-    text-align: center;
-}
-
     /* debug */
+
+
 nav{
   min-height: 50px;
   background-color: blue;
@@ -20,14 +11,21 @@ header{
   background-color: green;
 }
 
-.start {
-  background-color: white;
+.bg-warning  {
   min-height: 50px;
-  width: 100%;
 }
 
-.jumbo_tron{
+.bg-info{
+    min-height: 200px;
+    border: 1px solid black;
+}
+
+.nc_jumbotron{
   min-height: 500px;
-  background-color: lightblue;
-  width: 100%;
+}
+
+.nc_title{
+  height: 100px;
+  width: 400px;
+  margin: 0 auto;
 }
