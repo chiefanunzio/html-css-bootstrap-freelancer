@@ -11,13 +11,17 @@ header{
   background-color: green;
 }
 
+section, footer{
+  margin-top: 30px;
+}
+
 .bg-warning  {
   min-height: 50px;
 }
 
 .bg-info{
-    min-height: 200px;
-    border: 1px solid black;
+  min-height: 200px;
+  border: 1px solid black;
 }
 
 .nc_jumbotron{
@@ -25,7 +29,29 @@ header{
 }
 
 .nc_title{
-  height: 100px;
+  min-height: 100px;
   width: 400px;
   margin: 0 auto;
+  border:1px solid black;
+}
+
+.nc_form{
+  min-height: 500px;
+}
+
+.nc_about{
+  background-color:green;
+}
+
+footer{
+  min-height: 150px;
+}
+
+.nc_pie{
+  min-height: 100px;
+}
+
+.nc_cr{
+  background-color: blue;
+  min-height: 50px;
 }
