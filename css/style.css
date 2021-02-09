@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+[class*="col-"] {
+    float: left;
+    text-align: center;
+}
+
+    /* debug */
+nav{
+  min-height: 50px;
+  background-color: blue;
+}
+
+header{
+  min-height: 500px;
+  background-color: green;
+}
+
+.start {
+  background-color: white;
+  min-height: 50px;
+  width: 100%;
+}
+
+.jumbo_tron{
+  min-height: 500px;
+  background-color: lightblue;
+  width: 100%;
+}
