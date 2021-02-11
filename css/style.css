@@ -40,7 +40,7 @@ ul li{
 }
 
 ._black{
-  color: black;
+  color: #2c3e50;
 }
 
 ._white{
@@ -50,7 +50,6 @@ ul li{
 ._pad{
   padding:60px 70px;
 }
-
 
 
 .nc_jumbotron{
@@ -76,7 +75,7 @@ ul li{
 }
 
 ._h-rule.-b{
-  background-color: black;
+  background-color: #2c3e50;
 }
 
 ._star_ i{
@@ -132,8 +131,27 @@ ul li{
 }
 
 /* form */
-.nc_form{
-  min-height: 500px;
+._contatti *:not(#_send){
+  display: block;
+  width: 100%;
+  color: #495057;
+  font-size: 1.5em;
+  border:1px solid;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  border-color: #eee;
+  padding: 25px 0;
+}
+
+#_send{
+  border-style: hidden;
+  border-radius: 5px;
+  background-color: #1abc9c;
+  color:white;
+  padding:15px 20px;
+  margin-top:20px;
 }
 
 footer{
