@@ -168,13 +168,24 @@ footer{
   border-radius:50%;
 }
 
+.nc_pie ul li:hover i{
+  background-color: white;
+  color: #1a252f;
+}
+
 .nc_pie{
   text-align: center;
   min-height: 100px;
 }
 
+.nc_pie a{
+  color: #1abc9c;
+}
+
 .nc_cr{
-  background-color: blue;
+  font-size: 0.5em;
+  color: white;
+  background-color: #1a252f;
   min-height: 50px;
   text-align: center;
   line-height: 50px;
